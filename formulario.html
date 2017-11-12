@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>formulario-registro-faji</title>
+    <link rel="stylesheet" type="text/css" href="styles/formulario.css">
+  </head>
+  <body>
+    <form class="formulario" action="index.html" method="post">
+      <legend>Formulario de Registro</legend>
+      <div class="formulario-centro">
+      <div class="label">
+        <div>
+          <label for="nombre">Nombre</label>
+        </div>
+        <div>
+          <label for="apellidos">Apellidos</label>
+        </div>
+        <div class="">
+          <label for="direccion">Dirección</label>
+        </div>
+        <div>
+          <label for="e-mail">E_mail</label>
+        </div>
+        <div>
+          <label for="telefono">Teléfono</label>
+        </div>
+        <div>
+          <label for="nombre-usuario">Nombre de usuario</label>
+        </div>
+        <div>
+          <label for="contraseña">Contraseña</label>
+        </div>
+        <div >
+          <label for="repetir-contraseña">Repetir Contraseña</label>
+        </div>
+      </div>
+      <div class="input">
+        <div>
+          <input id="nombre" type="text" name="nombre" placeholder="Nombre">
+        </div>
+        <div>
+          <input id="apellidos" type="text" name="apellidos" placeholder="Apellidos">
+        </div>
+        <div>
+          <input id="direccion" type="text" name="direccion" placeholder="Dirección">
+        </div>
+        <div>
+          <input id="e-mail" type="email" name="e-mail" placeholder="E_mail" maxlength="9">
+        </div>
+        <div>
+          <input id="telefono" type="tel" name="telefono" placeholder="Teléfono">
+        </div>
+        <div>
+          <input id="nombre-usuario" type="text" name="nombre-usuario" placeholder="Nombre de usuario">
+        </div>
+        <div>
+          <input id="contraseña" type="password" name="contraseña" placeholder="Contraseña">
+        </div>
+        <div >
+          <input id="repetir-contraseña" type="password" name="repetir-contraseña" placeholder="Repetir Contraseña">
+        </div>
+      </div>
+      </div>
+      <div class="botones">
+        <input class="btn btn-default btn-lg" type="submit" value="Registrar">
+        <input class="btn btn-default btn-lg" type="reset" value="Restablecer valores">
+      </div>
+    </form>
+  </body>
+</html>

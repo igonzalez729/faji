@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: broadway-normal;
+  src: url(../fonts/broadway-normal.ttf);
+}
+body {
+  background: rgba(254, 115, 48, 0.8);
+  font-family: 'Lobster', cursive, sans-serif;
+  color: white;
+  text-align: center;
+}
+form {
+  width: 450px;
+  margin: 12% auto;
+}
+.formulario{
+  border: 10px solid rgb(250,74,50);
+  border-radius: 4%; 
+  padding: 10px;
+}
+legend {
+  font-size: 42px;
+}
+.formulario-centro{
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  margin: 17% auto;
+
+}
+.formulario-centro .label {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.formulario-centro .input {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.botones input{
+  padding: 1%;
+}

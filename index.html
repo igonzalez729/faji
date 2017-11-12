@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="styles/index.css">
+      <link href="https://fonts.googleapis.com/css?family=Gravitas+One|Lobster|Open+Sans|Cinzel+Decorative" rel="stylesheet">
+      <link rel="stylesheet" href="styles/font-awesome.min.css">
+      <title>Faji</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo-nombre">
+               <h1 id="titulo">FAJI</h1>
+            </div>
+            <nav id="header">
+                <ul class="menu">
+                  <li><a>Productos</a>
+                  <ul class="sub-menu">
+                    <li><a href="">Abrigos</a></li>
+                    <li><a href="">Camisas</a></li>
+                    <li><a href="">Pantalones</a></li>
+                    <li><a href="">Chaquetas</a></li>
+                    <li><a href="">Jersey</a></li>
+                    <li><a href="">Sudaderas</a></li>
+                  </ul>
+                </li>
+                  <li><a href="">Mi Cesta<i class="fa fa-shopping-cart" aria-hidden="true"> </i></a></li>
+                  <li><a href="formulario.html">Regístrate</a></li>
+                  <li><a class="accede">Accede</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="caja1">
+                <img class="foto1" src="images/foto1.jpg" alt="foto de fondo">
+                <hr>
+            </div>
+            <div class="caja3">
+                <h2>Novedades</h2>
+                <div class="flex">
+                  <div class="articulos">
+                      <img id="0" class="imagen" src="images/abrigo1.jpg">
+                      <h3>Abrigo Tigre</h3>
+                      <h5>38,99€</h5>
+                    </div>
+                    <div class="articulos">
+                      <img id="1" class="imagen" src="images/vestido3.jpg">
+                      <h3>Vestido elegante</h3>
+                      <h5>36,99€</h5>
+                    </div>
+                    <div class="articulos">
+                      <img id="2" class="imagen" src="images/camisa4.jpg">
+                      <h3>Camisa Blanca</h3>
+                      <h5>20,00€</h5>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <div class="articulos">
+                      <img id="3" class="imagen" src="images/sudadera3.jpg">
+                      <h3>Sudadera PinkCake</h3>
+                      <h5>15,99€</h5>
+                    </div>
+                    <div class="articulos">
+                      <img id="4" class="imagen" src="images/zapatos1.jpg">
+                      <h3>Zapatos Grises</h3>
+                      <h5>18,95€</h5>
+                    </div>
+                    <div class="articulos">
+                      <img id="5" class="imagen" src="images/pantalones1.jpg">
+                      <h3>Pantalon Cereza</h3>
+                      <h5>29,99€</h5>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <div class="articulos">
+                      <img id="6" class="imagen" src="images/vestido4.jpg">
+                      <h3>Vestido Amarillo</h3>
+                      <h5>25,99€</h5>
+                    </div>
+                    <div class="articulos">
+                      <img id="7" class="imagen" src="images/pantalones3.jpg">
+                      <h3>Black Seduction</h3>
+                      <h5>22,99€</h5>
+                    </div>
+                    <div class="articulos">
+                      <img id="8" class="imagen" src="images/zapatos3.jpg">
+                      <h3>Black Steed</h3>
+                      <h5>12,95€</h5>
+                    </div>
+                  </div>
+            </div>
+        </main>
+        <footer>
+          <h1>FAJI</h1>
+        </footer>
+        <div class="modalAccede">
+          <div class="contenidoAccede">
+
+
+          <button class="boton-cerrar" type="button" name="button">
+            <img class="aspa" src="images/boton_cerrar.png">
+          </button>
+          <h3>Formulario de alta</h3>
+          <div class="campoUsuario">
+          <label for="usuario">Usuario</label>
+          <input type="text" name="usuario" value="Usuario">
+          <label for="contraseña">Contraseña</label>
+          <input type="password" name="contraseña" value="Contraseña">
+          <button id="aceptar" type="button" name="button">Aceptar</button>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="modal-abrigo-invierno">
+            <div class="contenidoModal">
+              <button class="boton-cerrar" type="button" name="button">
+                <img class="aspa" src="images/boton_cerrar.png">
+              </button>
+              <h3 id="nombre">Abrigo Invierno</h3>
+              <img id="imagenPrenda" src="images/1aabrigo.jpg">
+              <p id="descripcion">Abrigo de color negro, realizado en españa con las mejores calidades en tejidos y composturas.</p>
+              <h5 id="precio">38,99€</h5>
+              <p id="counter" style="text-align:center;"></p>
+              <img  id="comprar" src="images/boton-comprar.png">
+              <!--<button id="comprar" type="button" name="button">Comprar</button>-->
+            </div>
+        </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
